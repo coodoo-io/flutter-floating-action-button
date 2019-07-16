@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/simon/floating_action_button/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/simon/floating-action-button/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
-                    "source": "/Users/simon/floating_action_button/android/app/src/main/res/values/styles.xml",
+                    "source": "/Users/simon/floating-action-button/android/app/src/main/res/values/styles.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
