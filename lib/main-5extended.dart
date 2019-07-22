@@ -58,6 +58,7 @@ class _MyHomePageState extends State<MyHomePage>
         },
       ),
       floatingActionButton: FloatingActionButton.extended(
+        icon: Icon(Icons.add),
         label: Text('Press me!'),
         onPressed: _incrementCounter,
         tooltip: 'Increment',

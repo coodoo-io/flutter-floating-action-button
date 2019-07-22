@@ -68,7 +68,7 @@ class _MyHomePageState extends State<MyHomePage>
         color: Colors.yellow,
         child: Container(height: 50.0),
       ),
-      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
+      floatingActionButtonLocation: FloatingActionButtonLocation.endDocked,
     );
   }
 }

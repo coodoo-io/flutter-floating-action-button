@@ -57,11 +57,21 @@ class _MyHomePageState extends State<MyHomePage>
           );
         },
       ),
-      floatingActionButton: FloatingActionButton(
+      floatingActionButton: FloatingActionButton.extended(
+        icon: Icon(Icons.add),
+        label: Text('Press me!'),
         onPressed: _incrementCounter,
         tooltip: 'Increment',
-        child: Icon(Icons.add),
+        foregroundColor: Colors.yellow,
+        backgroundColor: Colors.red,
+        elevation: 0.0,
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10.0)),
       ),
+      bottomNavigationBar: BottomAppBar(
+        color: Colors.yellow,
+        child: Container(height: 50.0),
+      ),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
     );
   }
 }

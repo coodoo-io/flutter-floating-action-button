@@ -52,16 +52,10 @@ class _MyHomePageState extends State<MyHomePage>
                 Text('Button pressed $_counter times'),
                 RaisedButton(
                     child: Text('Counter to Zero'), onPressed: _counterToZero),
-              ],
-            ),
-          );
-        },
-      ),
+              ],),);},),
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
         tooltip: 'Increment',
         child: Icon(Icons.add),
-      ),
-    );
-  }
+      ),);}
 }
