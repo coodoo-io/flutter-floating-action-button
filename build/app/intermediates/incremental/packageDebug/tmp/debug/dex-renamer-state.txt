@@ -1,4 +1,0 @@
-#Mon Jul 22 09:11:55 CEST 2019
-base.0=/Users/simon/floating-action-button/build/app/intermediates/transforms/dexMerger/debug/0
-path.0=classes.dex
-renamed.0=classes.dex
